@@ -1,0 +1,15 @@
+{
+  "name": "glazial-syntax-theme",
+  "theme": "syntax",
+  "version": "0.4.0",
+  "description": "A dark blue-ish syntax theme for Atom.",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/alpin111/glazial-syntax-theme",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

@@ -1,0 +1,45 @@
+.syntax--python {
+    .syntax--meta {
+        &.syntax--function-call {
+            color: @light-orange;
+
+            .syntax--punctuation {
+                color: @blue;
+            }
+
+            .syntax--arguments {
+                color: @indigo;
+
+                &.syntax--punctuation {
+                    color: @cyan;
+                }
+            }
+        }
+    }
+
+    .syntax--variable {color: @orange;
+        &.syntax--self {
+            color: @pink;
+        }
+    }
+
+    .syntax--meta {color: @red;
+        .syntax--punctuation {color: @pink;
+            &.syntax--inheritance, &.syntax--section {
+                color: @cyan;
+            }
+        }
+    }
+
+    .syntax--variable {color: @pink;
+        &.syntax--parameter {
+            color: @teal;
+        }
+    }
+
+    .syntax--keyword {color: @light-orange;
+        &.syntax--operator {
+            color: @purple;
+        }
+    }
+}
